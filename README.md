@@ -9,7 +9,7 @@ This is useful for if you have access to Copy & Paste Text into a remote VM, but
 The only requirement is PowerShell 5 or greater.
 
 ### How to Launch the Tool?
-#### Option 1: To run remotely, on a machine with access to github:
+#### Option 1: If GitHub is NOT BLOCKED:
 
 1. Open PowerShell 5 or later on the target machine
 2. Copy the following command:
@@ -18,7 +18,7 @@ The only requirement is PowerShell 5 or greater.
 ```
 3. Paste the command into the PowerShell prompt and press <ENTER>, the tool should open.
   
-#### Option 2: If GitHub is BLOCKED?
+#### Option 2: If GitHub is BLOCKED:
 1. On a machine where GitHub is not blocked (e.g. your local computer):
 2. Navigate to [Run-FileEncodingTool.ps1](https://raw.githubusercontent.com/BrainSlugs83/PowerShell-Tools/refs/heads/main/Run-FileEncodingTool.ps1)
 3. Select All (CTRL+A)
