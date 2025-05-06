@@ -1,4 +1,3 @@
-
 $btnDecode_Click = {
 
     Write-log "Decode Selected.";
