@@ -284,4 +284,5 @@ Add-Member -InputObject $frmMain -Name txtLog -Value $txtLog -MemberType NotePro
 
 
 [void]$frmMain.ShowDialog()
-# PRESS ENTER
+
+
