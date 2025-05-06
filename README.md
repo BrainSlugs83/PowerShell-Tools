@@ -18,17 +18,17 @@ The only requirement is PowerShell 5 or greater.
 ```PowerShell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/BrainSlugs83/PowerShell-Tools/refs/heads/main/Run-FileEncodingTool.ps1")))
 ```
-3. Paste the command into the PowerShell prompt and press <ENTER>, the tool should open.
+3. Paste the command into the PowerShell prompt and press <kbd>Enter</kbd>, the tool should open.
   
 #### Option 2: If GitHub is BLOCKED:
 1. On a machine where GitHub is not blocked (e.g. your local computer):
 2. Navigate to [Run-FileEncodingTool.ps1](https://raw.githubusercontent.com/BrainSlugs83/PowerShell-Tools/refs/heads/main/Run-FileEncodingTool.ps1)
-3. Select All (CTRL+A)
-4. Copy (CTRL+C)
+3. Select All (<kbd>CTRL</kbd>+<kbd>A</kbd>)
+4. Copy (<kbd>CTRL</kbd>+<kbd>C</kbd>)
 5. In your remote VM, where GitHub is blocked, open PowerShell 5 or later.
-6. Paste (CTRL+V)
+6. Paste (<kbd>CTRL</kbd>+<kbd>V</kbd>)
 7. Select "Paste Anyway" if the option is presented.
-8. If neccessary, press <ENTER>, the tool should open.
+8. If neccessary, press <kbd>Enter</kbd>, the tool should open.
  
 ### Usage:
 #### To convert a Binary File to Text: (e.g. .xlsx, .zip, or .exe, .etc to .txt)
@@ -38,10 +38,10 @@ The only requirement is PowerShell 5 or greater.
 4. In the Save File Dialog Box, select the text file to output to.
 5. Wait for the process to complete successfully.
 6. Once completed, navigate to the text file, and open it in your favorite text editor.
-7. Once the file is open in a text editor, Select All (CTRL + A).
-8. Copy (CTRL+C).
+7. Once the file is open in a text editor, Select All (<kbd>CTRL</kbd>+<kbd>A</kbd>).
+8. Copy (<kbd>CTRL</kbd>+<kbd>C</kbd>).
 9. In your remote VM, create a new text file using your text editor.
-10. Paste the text (CTRL+V) into the remote text editor.
+10. Paste the text (<kbd>CTRL</kbd>+<kbd>V</kbd>) into the remote text editor.
 11. Save the file.
 
 #### To Convert a Text File back to a usable Binary File: (e.g. .txt to .xlsx, .zip, or .exe, etc.)
