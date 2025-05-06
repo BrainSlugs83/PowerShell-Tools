@@ -8,7 +8,7 @@ This is useful for when you have access to Copy & Paste Text into a remote VM, (
 
 The only requirement is PowerShell 5 or greater.  
 
-**Note:** Please note, that for very large files, this may cause a temporary hang if you attempt to copy & paste the entire text file all at once.  I do not recommend using this method for files over 50 MB in size, unless you have no other choice.
+**Note:** Be advised that for very large files, this may cause a temporary hang if you attempt to copy & paste the entire text file all at once.  I do not recommend using this method for files over 50 MB in size, unless you have no other choice.
 
 ### How to Launch the Tool?
 #### Option 1: If GitHub is NOT BLOCKED:
