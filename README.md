@@ -13,22 +13,22 @@ The only requirement is PowerShell 5 or greater.
 ### How to Launch the Tool?
 #### Option 1: If GitHub is NOT BLOCKED:
 
-1. Open PowerShell 5 or later on the target machine
+1. Open PowerShell 5 or later on the target machine.
 2. Copy the following command:
 ```PowerShell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/BrainSlugs83/PowerShell-Tools/refs/heads/main/Run-FileEncodingTool.ps1")))
 ```
-3. Paste the command into the PowerShell prompt and press <kbd>Enter</kbd>, the tool should open.
+3. Paste the command into the PowerShell prompt and press <kbd>Enter</kbd>, and the tool should open.
   
 #### Option 2: If GitHub is BLOCKED:
-1. On a machine where GitHub is not blocked (e.g. your local computer):
+1. On a machine where GitHub is not blocked (e.g. your local computer where you are reading this file from 😉):
 2. Navigate to [Run-FileEncodingTool.ps1](https://raw.githubusercontent.com/BrainSlugs83/PowerShell-Tools/refs/heads/main/Run-FileEncodingTool.ps1)
 3. Select All (<kbd>CTRL</kbd>+<kbd>A</kbd>)
 4. Copy (<kbd>CTRL</kbd>+<kbd>C</kbd>)
-5. In your remote VM, where GitHub is blocked, open PowerShell 5 or later.
+5. On your target machine, where GitHub is blocked, Open PowerShell 5 or later.
 6. Paste (<kbd>CTRL</kbd>+<kbd>V</kbd>)
 7. Select "Paste Anyway" if the option is presented.
-8. If neccessary, press <kbd>Enter</kbd>, the tool should open.
+8. If neccessary, press <kbd>Enter</kbd>, and the tool should open.
  
 ### Usage:
 #### To convert a Binary File to Text: (e.g. .xlsx, .zip, or .exe, .etc to .txt)
