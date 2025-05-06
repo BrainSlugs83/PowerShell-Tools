@@ -4,9 +4,11 @@ Tools for PowerShell
 ## File Encoding / Decoding Tool
 This tool allows you to convert a binary file between Base64 Text and Raw Binary; it also includes some things like MD5 Hash Checking and Length Checking, to verify the output file is going to be a binary match with the input.
 
-This is useful for if you have access to Copy & Paste Text into a remote VM, but not files.
+This is useful for when you have access to Copy & Paste Text into a remote VM, (e.g. into Notepad) but you do not have the ability to copy files directly (e.g. Excel files, .zip files, etc.).
 
-The only requirement is PowerShell 5 or greater.
+The only requirement is PowerShell 5 or greater.  
+
+**Note:** Please note, that for very large files, this may cause a temporary hang if you attempt to copy & paste the entire text file all at once.  I do not recommend using this method for files over 50 MB in size, unless you have no other choice.
 
 ### How to Launch the Tool?
 #### Option 1: If GitHub is NOT BLOCKED:
